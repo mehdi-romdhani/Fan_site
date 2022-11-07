@@ -1,0 +1,157 @@
+.contact-container{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /* background-color: aqua; */
+    background-image: url('img/collage.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* padding-top: ; */
+
+}
+
+/* //////////////:container contact//////////// */
+
+.contact-txt{
+
+    /* border: 1px solid black; */
+    width: 100%;
+    /* height: 100%; */
+    text-align: center;
+    /* margin-top: 5%; */
+    margin-top: -5%;
+
+}
+
+
+/* //////////////////:social container/////////// */
+
+.social-container{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid magenta; */
+    /* margin-top: 5%; */
+    /* height: 50%; */
+    /* background-color: brown; */
+    animation: appart 1s ease-out;
+
+}
+
+@keyframes appart{
+    0%{
+        opacity: 0;
+        transform: translateY(-25px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+
+.so-container{
+
+    /* border: 1px solid salmon; */
+   
+    width: 50%;
+    
+}
+
+
+
+
+
+.so-container a{
+    
+    padding-left: 10%;
+    margin-right: 5%;
+}
+
+
+/* ///////////////////:form-container////////////// */
+
+
+.form-container{
+
+    animation: appart 2s ease-out;
+
+}
+.form-container h2{
+
+    margin-top: 2%;
+    color: white;
+    Font-family: 'Dosis',sans-serif;
+}
+
+.fo-container form{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* border: 1px solid black; */
+   
+}
+
+.fo-container input{
+
+    width: 25%;
+    height: 50px;
+    background-color:#141414;
+    color: white;
+    border-bottom-left-radius: 15px ;
+    border-bottom-right-radius:15px ;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    padding-left: 1.5%;
+    margin-top: 3%;
+    Font-family: 'Dosis',sans-serif;
+}
+
+
+
+.btn-submit:hover{
+    color: yellow;
+    cursor: pointer;
+
+}
+
+
+input[type=submit]{
+
+    width: 25%;
+    height: 50px;
+    background-color:#141414;
+    color:blanchedalmond;
+    border-bottom-left-radius: 15px ;
+    border-bottom-right-radius:15px ;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    /* padding-left: 1.5%; */
+    margin-top: 3%;
+    Font-family: 'Dosis',sans-serif;
+
+}
+/* .fo-container textarea{
+
+    
+    width: 25%;
+    height: 100px;
+    background-color:#141414;
+    color: white;
+    border-bottom-left-radius: 15px ;
+    border-bottom-right-radius:15px ;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    padding-left: 2%;
+    margin-top: 3%;
+    Font-family: 'Dosis',sans-serif;
+
+} */
+
+

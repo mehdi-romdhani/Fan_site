@@ -1,0 +1,98 @@
+.event-container{
+    display: flex;
+    /* background-color: gray; */
+    background-color: wheat;
+    /* width: 100%; */
+    height: 100vh;
+   
+    /* margin-top: 20%; */
+    flex-direction: column;
+}
+
+
+
+.event-container h2{
+
+    Font-family: 'Dosis',sans-serif;
+    padding-left: 3%;
+    font-size: 6rem;
+    animation: appear 2s ease-out;
+
+}
+
+/* ////////////keyframe for apparition h2///////////: */
+
+@keyframes appear{
+
+    0%{
+        opacity: 0;
+        transform: translateX(-25px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(0px);
+        
+    }
+}
+
+.e-container{
+
+    display: flex;
+    width: 100%;
+    /* height: 25%; */
+    background-color: black;
+
+}
+
+.txt-container p{
+
+    color: antiquewhite;
+    Font-family: 'Dosis',sans-serif;
+    padding-left: 2%;
+    font-size: 2rem;
+    /* border: 1px solid white; */
+    position: relative;
+    
+}
+
+.et-container{
+
+    display: flex;
+    width: 100%;
+    /* height: 25%; */
+    background-color: black;
+
+}
+
+.et-container img{
+    width: 1340px;
+    height: 701px;
+}
+
+
+.ety-container{
+
+    display: flex;
+    width: 100%;
+    /* height: 25%; */
+    background-color: black;
+
+}
+
+.ety-container img{
+
+    width: 1340px;
+    height: 701px;
+    
+}
+
+
+.txt-container p:nth-child(1)::after{
+    
+    position: absolute;
+    content: " __________";
+    /* color: white; */
+    
+
+}
+

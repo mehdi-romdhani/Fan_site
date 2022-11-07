@@ -1,0 +1,250 @@
+
+body{
+
+    margin: 0;
+    padding: 0;
+    /* background-image: url("img/home2.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover; */
+    /* overflow-y: scroll; */
+   
+
+}
+
+.splash{
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    z-index: 200;
+    color: white;
+    text-align: center;
+    line-height: 90vh;
+    letter-spacing: 1em;
+    font-family: 'Dosis',sans-serif;
+}
+
+
+.splash.display-none{
+
+    position: fixed;
+    opacity: 0;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    z-index: -10;
+    color: white;
+    text-align: center;
+    line-height: 90vh;
+    letter-spacing: 1em;
+    font-family: 'Dosis',sans-serif;
+    transition: all 0.5s;
+}
+
+@keyframes fadeIn{
+    to{
+       opacity: 1; 
+    }
+}
+
+.fade-in{
+
+    opacity: 0;
+    animation: fadeIn 1s ease-in forwards;
+}
+
+/* ////////////////////Header////////////////////// */
+
+header{
+
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    /* height: 50vh; */
+    position: sticky;
+    top: 0;
+    width: 100%;
+    background-color: black;
+}
+
+
+
+.header-container{
+
+    /* border: 1px solid royalblue; */
+    display: flex;
+    flex-direction:column;
+    /* height: 25vh; */
+    
+    
+}
+
+/* //////////////////container-up/////////// */
+
+/* .h-container-up{
+
+    border: 1px solid saddlebrown;
+} */
+
+.h-container-up ul{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* margin-left: 0; */
+    /* justify-items: flex-start; */
+
+}
+
+.h-container-up li{
+
+    list-style-type:none;
+}
+
+.h-container-up a{
+
+    text-decoration: none;
+    color: white;
+    font-family: 'Dosis',sans-serif;
+}
+
+.h-container-up a:hover{
+    color: yellow;
+}
+
+/* ///////////////////container-down////////////// */
+
+/* .h-container-down{
+
+    border: 1px solid rgb(0, 255, 42);
+} */
+
+
+.h-container-down ul{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    /* justify-items: flex-start; */
+
+}
+
+.h-container-down li{
+
+    list-style-type:none;
+}
+
+.h-container-down a{
+
+    text-decoration: none;
+    color:white;
+    font-family: 'Dosis',sans-serif;
+}
+
+.h-container-down a:hover{
+    color: yellow;
+}
+
+
+/* ///////////parallax-section/////////// */
+
+.parallax-container{
+
+    display: flex;
+    flex-direction: column;
+}
+
+
+.parallax{
+
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* border: 1px solid black; */
+    /* width: 100%; */
+    height: 100vh;
+
+}
+
+
+
+.parallax:nth-child(1){
+    
+    background-color: brown;
+    padding-top: 5%;
+    Font-family: 'Dosis',sans-serif;
+    font-size: 2rem;
+    letter-spacing: 1rem;
+    padding-left: 5%;
+}
+
+
+
+
+.parallax:nth-child(2) {
+
+    background-image: url('img/h3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    Font-family: 'Dosis',sans-serif;
+    font-size: 2rem;
+    letter-spacing: 1rem;
+    padding-left: 5%;
+    color: black;
+    
+   
+}
+
+
+
+
+
+.parallax:nth-child(3) {
+
+    background-color:#CEFFBE;
+    color: black;
+    padding-top: 5%;
+    Font-family: 'Dosis',sans-serif;
+    font-size: 2rem;
+    letter-spacing: 1rem;
+    padding-left: 5%;
+   
+}
+
+
+
+/* ////////////footer////////////////// */
+
+
+footer{
+
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    width: 100%;
+    height: 5vh;
+    left: 0;
+    bottom: 0;
+    position: fixed;
+    justify-content: space-around;
+  
+}
+
+.foot-container{
+    Font-family: 'Dosis',sans-serif;
+    font-size: small;
+    letter-spacing: 0.25rem;
+    color: white;
+
+    
+}
+
+
+

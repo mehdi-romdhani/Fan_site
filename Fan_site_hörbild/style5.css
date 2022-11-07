@@ -1,0 +1,67 @@
+.pictures-container{
+
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    /* border: 1px solid black; */
+
+}
+
+.title-container{
+
+    width: 10%;
+    height: 100%;
+    /* background-color: aqua; */
+    writing-mode: vertical-lr;
+}
+
+.title-container p{
+
+    Font-family: 'Dosis',sans-serif;
+    letter-spacing: 1rem;
+    font-size: 3rem;
+    padding-top: 30%;
+
+}
+
+
+
+.pic-container{
+    display: flex;
+    
+    /* justify-content: center; */
+    /* border: 1px solid black; */
+    width: 100%;
+
+}
+.pic-container img{
+    width: 100%;
+    height: 100%;
+}
+
+
+.title-2-container{
+    width: 10%;
+    height: 100%;
+    /* background-color: aqua; */
+    writing-mode: vertical-lr;
+    background-color: black;
+}
+
+
+.title-2-container p{
+
+    Font-family: 'Dosis',sans-serif;
+    letter-spacing: 1rem;
+    font-size: 3rem;
+    padding-top: 30%;
+    color: white;
+
+}
+
+
+
+
+
+
+
